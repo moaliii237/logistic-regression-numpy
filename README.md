@@ -31,7 +31,7 @@ I used the **Diabetes 130-US Hospitals (1999-2008)** dataset from the UCI Machin
 - UCI page: https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008
 - File the notebooks expect: `diabetic_data.csv`
 
-The dataset is not in this repo. Download `diabetic_data.csv` from UCI and put it in the `data/` folder so the path `./data/diabetic_data.csv` works. The Week 6 math notebook also uses a small `house-prices.csv`, put that in `data/` too as `./data/house-prices.csv` if you want to run it.
+The dataset is not in this repo. Download `diabetic_data.csv` from UCI and put it in the `data/` folder so the path `./data/diabetic_data.csv` works. The `math/` notebooks also use a small `house-prices.csv`, put that in `data/` too as `./data/house-prices.csv` if you want to run it.
 
 ## How it works (my approach)
 
@@ -84,9 +84,8 @@ Then open the notebook you want. Make sure `data/diabetic_data.csv` exists first
 
 ## Main notebooks
 
-- `LogisticRegression_temp( MOHAMMADALI JABERI )final.ipynb` - the from-scratch logistic regression. This is the one to read first.
-- `BlockY1B_CreativeBrief (Mohammadali Jaberi 244437 final 14).ipynb` - the full block notebook. It has EDA in SQL and in Python, data cleaning and preprocessing, regression baselines (Linear Regression, Decision Tree, Gradient Boosting, XGBoost), classification baselines (Logistic Regression, Random Forest, KNN), clustering (KMeans, Agglomerative, DBSCAN with PCA), feature engineering and selection, and hyperparameter tuning with `GridSearchCV` plus nested cross-validation, then saving the best model with joblib.
+- `logistic_regression_numpy.ipynb` - the from-scratch logistic regression. This is the one to read first.
+- `creative_brief_full_block.ipynb` - the full block notebook. It has EDA in SQL and in Python, data cleaning and preprocessing, regression baselines (Linear Regression, Decision Tree, Gradient Boosting, XGBoost), classification baselines (Logistic Regression, Random Forest, KNN), clustering (KMeans, Agglomerative, DBSCAN with PCA), feature engineering and selection, and hyperparameter tuning with `GridSearchCV` plus nested cross-validation, then saving the best model with joblib.
 
 ## Note on the extra files
 
-The repo keeps my weekly progress copies of the notebooks (first week, second week, third week, final 10, final 13, etc.) so the history of how the work grew is visible. Those are older snapshots. The two notebooks listed above are the clean copies to use. `final 14` is newer than `final 13` and they only differ in the last model cells. The copy under `Deliverable Block B/` is the same as the root `final 14`. The `Deliverable Block B/` folder, the PDFs, and the coursera screenshots are the assessment deliverables for the block.
